@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		АНКЕТА
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form action="#">
+		<h1>
+			Анкета ученика
+		</h1>
+		<fieldset>
+			<legend>
+				Контактная информация
+			</legend>
+			<input type="text" placeholder="ВВЕДИТЕ ИМЯЯ!!!" name=""><br>
+			<input type="number" placeholder="ВВЕДИТЕ ВОЗРАСТ!!!" name=""><br>
+			<input type="email" placeholder="ВВЕДИТЕ ПОЧТУУУ!!!" name=""><br>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Личная информация
+			</legend>
+			<label for="age">
+				Ваш возpаст
+			</label>
+			<input id="age" type="number" placeholder="" name="">
+			<label for="dob">
+				Дата рождения
+			</label>
+			<input id="dob" type="date">
+			<label for="anime">
+				Любимое аниме
+			</label>
+			<select id="anime">
+				<option>
+					НАРУТО
+				</option>
+				<option>
+					ТЕТРАДЬ СМЕРТИ
+				</option>
+				<option>
+					КЛИНОК РАССЕКАЮЩИЙ ДЕМОНОВ
+				</option>
+				<option>
+					БЕЗДОМНЫЙ БОГ
+				</option>
+				<option>
+					АТАКА ТИТАНОВ
+				</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Обратная связь
+			</legend>
+			<label>
+				Посоветуете ли вы нас друзьям?
+			</label>
+			<input id="checked3" type="radio" name="feedback">
+			<label class="checked" for="checked3">
+				ДАААА!!!
+			</label>
+			<input id="checked2" type="radio" name="feedback">
+			<label class="checked" for="checked2">
+				КОНЕЧНОООО!!!
+			</label>
+			<input id="checked1" type="radio" name="feedback">
+			<label class="checked" for="checked1">
+				Pазве мoгут быть другие варианты :[ ?
+			</label>
+			<label for="text">
+				Оставте комментарий:)
+			</label>
+			<textarea id="text"></textarea>
+		</fieldset>
+			<input type="checkbox" name="">
+			<label class="checkbox">
+				Разрешать обработку данных
+			</label>
+			<input type="checkbox" name="">
+			<label class="checkbox">
+				Отпровлять новости на почту
+			</label>
+			<input value="ОТПРАВИТЬ" type="submit" name="">	
+	</form>
+</body>
+</html>
